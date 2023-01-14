@@ -48,6 +48,8 @@ Now, you can import and construct model in AWS CDK
 
 .. code-block:: python3
 
+    from cdk_pynamodb import PynamoDBTable
+
     from models import UserTable
 
     from aws_cdk import Stack

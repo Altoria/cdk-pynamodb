@@ -7,7 +7,7 @@ from aws_cdk import Stack
 from aws_cdk.assertions import Match, Template
 from constructs import Construct
 
-from cdk_pynamodb.cdk_pynamodb import PynamoDBTable
+from cdk_pynamodb import PynamoDBTable
 from ..pynamodb_tables import *
 
 # example tests. To run these tests, uncomment this file along with the example

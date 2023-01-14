@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "cdk-pynamodb"
 version = "0.1.0"
-description = ""
+description = "AWS CDK Construct for DynamoDB Table from PynamoDB Model."
 authors = ["SeongHun Kim <alto@pendragon.kr>"]
 readme = "README.rst"
 packages = [{include = "cdk_pynamodb"}]
+homepage = "https://github.com/altoria/cdk-pynamodb"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "~=3.9"

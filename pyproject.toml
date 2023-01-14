@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cdk-pynamodb"
+version = "0.1.0"
+description = ""
+authors = ["SeongHun Kim <alto@pendragon.kr>"]
+readme = "README.rst"
+packages = [{include = "cdk_pynamodb"}]
+
+[tool.poetry.dependencies]
+python = "~=3.9"
+pynamodb = "^5.3.4"
+aws-cdk-lib = "^2.60.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
